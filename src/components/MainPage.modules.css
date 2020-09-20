@@ -1,0 +1,53 @@
+.background {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.menuList {
+    display: flex;
+}
+
+.menuList ul {
+    font-size: x-large;
+    color: white;
+    padding: 15px;
+    margin: 15px 10px 0 10px;
+}
+
+.menuList a {
+    text-decoration: none;
+}
+
+.menuList a :hover {
+    border-radius: 30%;
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
+}
+
+.study {
+    height: 312px;
+    width: 430px;
+    position: absolute;
+    left: 61%;
+    top: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    .study {
+        height: 280px;
+        width: 430px;
+        position: absolute;
+        left: 8%;
+        top: 7%;
+    }
+    .menuList ul {
+        font-size: 0.8rem;
+        color: white;
+        padding: 5px;
+        margin: 5px 5px 0 10px;
+    }
+}
