@@ -7,3 +7,6 @@
     font-family: 'Bangers', cursive;
     color: white;
 }
+.elevation :hover{
+    transform: scale(1.03, 1.03);
+}

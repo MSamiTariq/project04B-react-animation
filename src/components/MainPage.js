@@ -26,6 +26,9 @@ const Mainpage = () => {
     return (
         <div className="background">
             <nav>
+            <div
+                data-aos="slide-left" data-aos-duration="3000" data-aos-once="true"
+            >
                 <div>
                     <li className="menuList" >
 
@@ -35,12 +38,9 @@ const Mainpage = () => {
                         <a href="#products"><ul>Products</ul></a>
                     </li>
                 </div>
+                </div>
             </nav>
             <Text />
-            <div
-                data-aos="slide-left" data-aos-duration="3000" data-aos-once="true"
-            >
-            </div>
             <img src={studying} className="study" alt="logo" ref= {ref}/>
             <Products />
             <Services />

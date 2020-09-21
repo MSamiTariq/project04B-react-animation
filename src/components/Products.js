@@ -71,7 +71,7 @@ export const Products = () => {
             <div id= "products" className="title">PRODUCTS</div>
             <div className={classes.root}>
                 <Grid container spacing={2}>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} className = "elevation">
                         <Paper elevation={3} className={classes.paper} >
                             <Card className={classess.root} >
                                 <CardHeader
@@ -119,7 +119,7 @@ export const Products = () => {
                             </Card>
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} className = "elevation">
                         <Paper className={classes.paper} elevation = {3}>
                             <Card className={classess.root}>
                                 <CardHeader
@@ -166,7 +166,7 @@ export const Products = () => {
                             </Card>
                         </Paper>
                     </Grid>
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} className = "elevation">
                         <Paper elevation ={3} className={classes.paper}>
                             <Card className={classess.root}>
                                 <CardHeader
